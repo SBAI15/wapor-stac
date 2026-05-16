@@ -3,8 +3,6 @@ update_catalog.py
 =================
 Incrementally updates an existing WaPOR v3 STAC catalog by adding any new
 raster files found in the GCS bucket since the last run.
-
-Items already present in the catalog are skipped
 """
 
 import json
