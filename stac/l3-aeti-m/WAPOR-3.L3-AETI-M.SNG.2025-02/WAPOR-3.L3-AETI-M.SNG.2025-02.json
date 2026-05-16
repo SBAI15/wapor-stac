@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WAPOR-3.L3-AETI-M.SNG.2025-02",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -30.0,
+          -40.0
+        ],
+        [
+          65.0,
+          -40.0
+        ],
+        [
+          65.0,
+          40.0
+        ],
+        [
+          -30.0,
+          40.0
+        ],
+        [
+          -30.0,
+          -40.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -30.0,
+    -40.0,
+    65.0,
+    40.0
+  ],
+  "properties": {
+    "start_datetime": "2025-02-01T00:00:00+00:00",
+    "end_datetime": "2025-02-28T23:59:59+00:00",
+    "wapor:mapset": "L3-AETI-M",
+    "wapor:period": "2025-02",
+    "wapor:area_code": "SNG",
+    "wapor:level": "L3",
+    "wapor:version": "3",
+    "datetime": "2025-02-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "collection",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-m/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L3 Monthly 20 m"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-m/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L3 Monthly 20 m"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-m/WAPOR-3.L3-AETI-M.SNG.2025-02/WAPOR-3.L3-AETI-M.SNG.2025-02.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MOSAICSET/L3-AETI-M/WAPOR-3.L3-AETI-M.SNG.2025-02.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MOSAICSET/L3-AETI-M/WAPOR-3.L3-AETI-M.SNG.2025-02.json",
+      "type": "application/json",
+      "title": "FAO GISMGR item metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "l3-aeti-m"
+}

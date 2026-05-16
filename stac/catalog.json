@@ -1,0 +1,380 @@
+{
+  "type": "Catalog",
+  "id": "wapor-v3",
+  "stac_version": "1.1.0",
+  "description": "Community STAC 1.0.0 catalog for FAO WaPOR version 3 data. Provides spatiotemporal metadata and direct links to Cloud Optimized GeoTIFFs (COGs) hosted by FAO on Google Cloud Storage. Covers actual evapotranspiration, precipitation, soil moisture, net primary production, biomass productivity, and related variables from 2018 to present. Three spatial levels: L1 (global, 300 m), L2 (national, 100 m), L3 (sub-national irrigation schemes, 20 m).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "text/html",
+      "title": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-aeti-a/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-aeti-d/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-aeti-m/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L1 Monthly 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-e-a/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-e-d/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-gbwp-a/collection.json",
+      "type": "application/json",
+      "title": "Gross Biomass Water Productivity \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-d/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-nbwp-a/collection.json",
+      "type": "application/json",
+      "title": "Net Biomass Water Productivity \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-npp-d/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-npp-m/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L1 Monthly 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-a/collection.json",
+      "type": "application/json",
+      "title": "Precipitation \u2014 L1 Annual ~5 km"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/collection.json",
+      "type": "application/json",
+      "title": "Precipitation \u2014 L1 Dekadal ~5 km"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/collection.json",
+      "type": "application/json",
+      "title": "Precipitation \u2014 L1 Daily ~5 km"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-m/collection.json",
+      "type": "application/json",
+      "title": "Precipitation \u2014 L1 Monthly ~5 km"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-qual-lst-d/collection.json",
+      "type": "application/json",
+      "title": "Land Surface Temperature Quality Flag \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-qual-ndvi-d/collection.json",
+      "type": "application/json",
+      "title": "NDVI Quality Flag \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-a/collection.json",
+      "type": "application/json",
+      "title": "Reference Evapotranspiration \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-d/collection.json",
+      "type": "application/json",
+      "title": "Reference Evapotranspiration \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/collection.json",
+      "type": "application/json",
+      "title": "Reference Evapotranspiration \u2014 L1 Daily 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-m/collection.json",
+      "type": "application/json",
+      "title": "Reference Evapotranspiration \u2014 L1 Monthly 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-rsm-d/collection.json",
+      "type": "application/json",
+      "title": "Relative Root-Zone Soil Moisture \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-t-a/collection.json",
+      "type": "application/json",
+      "title": "Transpiration \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-t-d/collection.json",
+      "type": "application/json",
+      "title": "Transpiration \u2014 L1 Dekadal 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-tbp-a/collection.json",
+      "type": "application/json",
+      "title": "Total Biomass Production \u2014 L1 Annual 300 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-aeti-a/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-aeti-d/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-aeti-m/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L2 Monthly 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-e-a/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-e-d/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-gbwp-a/collection.json",
+      "type": "application/json",
+      "title": "Gross Biomass Water Productivity \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-i-a/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-i-d/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-nbwp-a/collection.json",
+      "type": "application/json",
+      "title": "Net Biomass Water Productivity \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-npp-d/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-npp-m/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L2 Monthly 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-qual-ndvi-d/collection.json",
+      "type": "application/json",
+      "title": "NDVI Quality Flag \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-rsm-d/collection.json",
+      "type": "application/json",
+      "title": "Relative Root-Zone Soil Moisture \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-t-a/collection.json",
+      "type": "application/json",
+      "title": "Transpiration \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-t-d/collection.json",
+      "type": "application/json",
+      "title": "Transpiration \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-tbp-a/collection.json",
+      "type": "application/json",
+      "title": "Total Biomass Production \u2014 L2 Annual 100 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-a/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L3 Annual 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-d/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-e/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L3 Daily 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-aeti-m/collection.json",
+      "type": "application/json",
+      "title": "Actual Evapotranspiration and Interception \u2014 L3 Monthly 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/collection.json",
+      "type": "application/json",
+      "title": "Crop Type Classification \u2014 L3 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-e-a/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L3 Annual 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-e-d/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-e-e/collection.json",
+      "type": "application/json",
+      "title": "Evaporation \u2014 L3 Daily 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-gbwp-a/collection.json",
+      "type": "application/json",
+      "title": "Gross Biomass Water Productivity \u2014 L3 Annual 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-i-a/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L3 Annual 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-i-d/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-i-e/collection.json",
+      "type": "application/json",
+      "title": "Interception \u2014 L3 Daily 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-nbwp-a/collection.json",
+      "type": "application/json",
+      "title": "Net Biomass Water Productivity \u2014 L3 Annual 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-npp-d/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-npp-e/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L3 Daily 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-npp-m/collection.json",
+      "type": "application/json",
+      "title": "Net Primary Production \u2014 L3 Monthly 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-qual-ndvi-d/collection.json",
+      "type": "application/json",
+      "title": "NDVI Quality Flag \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "child",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/collection.json",
+      "type": "application/json",
+      "title": "Relative Root-Zone Soil Moisture \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+}

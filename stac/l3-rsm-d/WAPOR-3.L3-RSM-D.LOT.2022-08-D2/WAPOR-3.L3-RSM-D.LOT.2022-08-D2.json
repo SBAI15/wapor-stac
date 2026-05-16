@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WAPOR-3.L3-RSM-D.LOT.2022-08-D2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -30.0,
+          -40.0
+        ],
+        [
+          65.0,
+          -40.0
+        ],
+        [
+          65.0,
+          40.0
+        ],
+        [
+          -30.0,
+          40.0
+        ],
+        [
+          -30.0,
+          -40.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -30.0,
+    -40.0,
+    65.0,
+    40.0
+  ],
+  "properties": {
+    "start_datetime": "2022-08-11T00:00:00+00:00",
+    "end_datetime": "2022-08-20T23:59:59+00:00",
+    "wapor:mapset": "L3-RSM-D",
+    "wapor:period": "2022-08-D2",
+    "wapor:area_code": "LOT",
+    "wapor:level": "L3",
+    "wapor:version": "3",
+    "datetime": "2022-08-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "collection",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/collection.json",
+      "type": "application/json",
+      "title": "Relative Root-Zone Soil Moisture \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/collection.json",
+      "type": "application/json",
+      "title": "Relative Root-Zone Soil Moisture \u2014 L3 Dekadal 20 m"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.LOT.2022-08-D2/WAPOR-3.L3-RSM-D.LOT.2022-08-D2.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MOSAICSET/L3-RSM-D/WAPOR-3.L3-RSM-D.LOT.2022-08-D2.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MOSAICSET/L3-RSM-D/WAPOR-3.L3-RSM-D.LOT.2022-08-D2.json",
+      "type": "application/json",
+      "title": "FAO GISMGR item metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "l3-rsm-d"
+}

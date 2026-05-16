@@ -1,0 +1,92 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WAPOR-3.L2-QUAL-NDVI-D.2018-04-D1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -30.0,
+          -40.0
+        ],
+        [
+          65.0,
+          -40.0
+        ],
+        [
+          65.0,
+          40.0
+        ],
+        [
+          -30.0,
+          40.0
+        ],
+        [
+          -30.0,
+          -40.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -30.0,
+    -40.0,
+    65.0,
+    40.0
+  ],
+  "properties": {
+    "start_datetime": "2018-04-01T00:00:00+00:00",
+    "end_datetime": "2018-04-10T23:59:59+00:00",
+    "wapor:mapset": "L2-QUAL-NDVI-D",
+    "wapor:period": "2018-04-D1",
+    "wapor:level": "L2",
+    "wapor:version": "3",
+    "datetime": "2018-04-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "collection",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-qual-ndvi-d/collection.json",
+      "type": "application/json",
+      "title": "NDVI Quality Flag \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-qual-ndvi-d/collection.json",
+      "type": "application/json",
+      "title": "NDVI Quality Flag \u2014 L2 Dekadal 100 m"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-qual-ndvi-d/WAPOR-3.L2-QUAL-NDVI-D.2018-04-D1/WAPOR-3.L2-QUAL-NDVI-D.2018-04-D1.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L2-QUAL-NDVI-D/WAPOR-3.L2-QUAL-NDVI-D.2018-04-D1.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L2-QUAL-NDVI-D/WAPOR-3.L2-QUAL-NDVI-D.2018-04-D1.json",
+      "type": "application/json",
+      "title": "FAO GISMGR item metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "l2-qual-ndvi-d"
+}

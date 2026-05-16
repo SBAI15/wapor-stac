@@ -1,0 +1,92 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WAPOR-3.L1-PCP-E.2019-03-27",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -30.0,
+          -40.0
+        ],
+        [
+          65.0,
+          -40.0
+        ],
+        [
+          65.0,
+          40.0
+        ],
+        [
+          -30.0,
+          40.0
+        ],
+        [
+          -30.0,
+          -40.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -30.0,
+    -40.0,
+    65.0,
+    40.0
+  ],
+  "properties": {
+    "start_datetime": "2019-03-27T00:00:00+00:00",
+    "end_datetime": "2019-03-27T23:59:59+00:00",
+    "wapor:mapset": "L1-PCP-E",
+    "wapor:period": "2019-03-27",
+    "wapor:level": "L1",
+    "wapor:version": "3",
+    "datetime": "2019-03-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "collection",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/collection.json",
+      "type": "application/json",
+      "title": "Precipitation \u2014 L1 Daily ~5 km"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/collection.json",
+      "type": "application/json",
+      "title": "Precipitation \u2014 L1 Daily ~5 km"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2019-03-27/WAPOR-3.L1-PCP-E.2019-03-27.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L1-PCP-E/WAPOR-3.L1-PCP-E.2019-03-27.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L1-PCP-E/WAPOR-3.L1-PCP-E.2019-03-27.json",
+      "type": "application/json",
+      "title": "FAO GISMGR item metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "l1-pcp-e"
+}

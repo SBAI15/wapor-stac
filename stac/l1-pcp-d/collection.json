@@ -1,0 +1,1550 @@
+{
+  "type": "Collection",
+  "id": "l1-pcp-d",
+  "stac_version": "1.1.0",
+  "description": "Dekadal precipitation (mm/day) from CHIRPS v3. Global coverage at approximately 5 km resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "text/html",
+      "title": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "rel": "about",
+      "href": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/wapor-data-access/en",
+      "type": "text/html",
+      "title": "WaPOR Data Access"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-01-D1/WAPOR-3.L1-PCP-D.2018-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-01-D2/WAPOR-3.L1-PCP-D.2018-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-01-D3/WAPOR-3.L1-PCP-D.2018-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-02-D1/WAPOR-3.L1-PCP-D.2018-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-02-D2/WAPOR-3.L1-PCP-D.2018-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-02-D3/WAPOR-3.L1-PCP-D.2018-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-03-D1/WAPOR-3.L1-PCP-D.2018-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-03-D2/WAPOR-3.L1-PCP-D.2018-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-03-D3/WAPOR-3.L1-PCP-D.2018-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-04-D1/WAPOR-3.L1-PCP-D.2018-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-04-D2/WAPOR-3.L1-PCP-D.2018-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-04-D3/WAPOR-3.L1-PCP-D.2018-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-05-D1/WAPOR-3.L1-PCP-D.2018-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-05-D2/WAPOR-3.L1-PCP-D.2018-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-05-D3/WAPOR-3.L1-PCP-D.2018-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-06-D1/WAPOR-3.L1-PCP-D.2018-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-06-D2/WAPOR-3.L1-PCP-D.2018-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-06-D3/WAPOR-3.L1-PCP-D.2018-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-07-D1/WAPOR-3.L1-PCP-D.2018-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-07-D2/WAPOR-3.L1-PCP-D.2018-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-07-D3/WAPOR-3.L1-PCP-D.2018-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-08-D1/WAPOR-3.L1-PCP-D.2018-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-08-D2/WAPOR-3.L1-PCP-D.2018-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-08-D3/WAPOR-3.L1-PCP-D.2018-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-09-D1/WAPOR-3.L1-PCP-D.2018-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-09-D2/WAPOR-3.L1-PCP-D.2018-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-09-D3/WAPOR-3.L1-PCP-D.2018-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-10-D1/WAPOR-3.L1-PCP-D.2018-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-10-D2/WAPOR-3.L1-PCP-D.2018-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-10-D3/WAPOR-3.L1-PCP-D.2018-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-11-D1/WAPOR-3.L1-PCP-D.2018-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-11-D2/WAPOR-3.L1-PCP-D.2018-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-11-D3/WAPOR-3.L1-PCP-D.2018-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-12-D1/WAPOR-3.L1-PCP-D.2018-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-12-D2/WAPOR-3.L1-PCP-D.2018-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2018-12-D3/WAPOR-3.L1-PCP-D.2018-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-01-D1/WAPOR-3.L1-PCP-D.2019-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-01-D2/WAPOR-3.L1-PCP-D.2019-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-01-D3/WAPOR-3.L1-PCP-D.2019-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-02-D1/WAPOR-3.L1-PCP-D.2019-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-02-D2/WAPOR-3.L1-PCP-D.2019-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-02-D3/WAPOR-3.L1-PCP-D.2019-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-03-D1/WAPOR-3.L1-PCP-D.2019-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-03-D2/WAPOR-3.L1-PCP-D.2019-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-03-D3/WAPOR-3.L1-PCP-D.2019-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-04-D1/WAPOR-3.L1-PCP-D.2019-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-04-D2/WAPOR-3.L1-PCP-D.2019-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-04-D3/WAPOR-3.L1-PCP-D.2019-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-05-D1/WAPOR-3.L1-PCP-D.2019-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-05-D2/WAPOR-3.L1-PCP-D.2019-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-05-D3/WAPOR-3.L1-PCP-D.2019-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-06-D1/WAPOR-3.L1-PCP-D.2019-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-06-D2/WAPOR-3.L1-PCP-D.2019-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-06-D3/WAPOR-3.L1-PCP-D.2019-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-07-D1/WAPOR-3.L1-PCP-D.2019-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-07-D2/WAPOR-3.L1-PCP-D.2019-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-07-D3/WAPOR-3.L1-PCP-D.2019-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-08-D1/WAPOR-3.L1-PCP-D.2019-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-08-D2/WAPOR-3.L1-PCP-D.2019-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-08-D3/WAPOR-3.L1-PCP-D.2019-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-09-D1/WAPOR-3.L1-PCP-D.2019-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-09-D2/WAPOR-3.L1-PCP-D.2019-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-09-D3/WAPOR-3.L1-PCP-D.2019-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-10-D1/WAPOR-3.L1-PCP-D.2019-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-10-D2/WAPOR-3.L1-PCP-D.2019-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-10-D3/WAPOR-3.L1-PCP-D.2019-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-11-D1/WAPOR-3.L1-PCP-D.2019-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-11-D2/WAPOR-3.L1-PCP-D.2019-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-11-D3/WAPOR-3.L1-PCP-D.2019-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-12-D1/WAPOR-3.L1-PCP-D.2019-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-12-D2/WAPOR-3.L1-PCP-D.2019-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2019-12-D3/WAPOR-3.L1-PCP-D.2019-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-01-D1/WAPOR-3.L1-PCP-D.2020-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-01-D2/WAPOR-3.L1-PCP-D.2020-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-01-D3/WAPOR-3.L1-PCP-D.2020-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-02-D1/WAPOR-3.L1-PCP-D.2020-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-02-D2/WAPOR-3.L1-PCP-D.2020-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-02-D3/WAPOR-3.L1-PCP-D.2020-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-03-D1/WAPOR-3.L1-PCP-D.2020-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-03-D2/WAPOR-3.L1-PCP-D.2020-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-03-D3/WAPOR-3.L1-PCP-D.2020-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-04-D1/WAPOR-3.L1-PCP-D.2020-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-04-D2/WAPOR-3.L1-PCP-D.2020-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-04-D3/WAPOR-3.L1-PCP-D.2020-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-05-D1/WAPOR-3.L1-PCP-D.2020-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-05-D2/WAPOR-3.L1-PCP-D.2020-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-05-D3/WAPOR-3.L1-PCP-D.2020-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-06-D1/WAPOR-3.L1-PCP-D.2020-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-06-D2/WAPOR-3.L1-PCP-D.2020-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-06-D3/WAPOR-3.L1-PCP-D.2020-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-07-D1/WAPOR-3.L1-PCP-D.2020-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-07-D2/WAPOR-3.L1-PCP-D.2020-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-07-D3/WAPOR-3.L1-PCP-D.2020-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-08-D1/WAPOR-3.L1-PCP-D.2020-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-08-D2/WAPOR-3.L1-PCP-D.2020-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-08-D3/WAPOR-3.L1-PCP-D.2020-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-09-D1/WAPOR-3.L1-PCP-D.2020-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-09-D2/WAPOR-3.L1-PCP-D.2020-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-09-D3/WAPOR-3.L1-PCP-D.2020-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-10-D1/WAPOR-3.L1-PCP-D.2020-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-10-D2/WAPOR-3.L1-PCP-D.2020-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-10-D3/WAPOR-3.L1-PCP-D.2020-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-11-D1/WAPOR-3.L1-PCP-D.2020-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-11-D2/WAPOR-3.L1-PCP-D.2020-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-11-D3/WAPOR-3.L1-PCP-D.2020-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-12-D1/WAPOR-3.L1-PCP-D.2020-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-12-D2/WAPOR-3.L1-PCP-D.2020-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2020-12-D3/WAPOR-3.L1-PCP-D.2020-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-01-D1/WAPOR-3.L1-PCP-D.2021-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-01-D2/WAPOR-3.L1-PCP-D.2021-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-01-D3/WAPOR-3.L1-PCP-D.2021-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-02-D1/WAPOR-3.L1-PCP-D.2021-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-02-D2/WAPOR-3.L1-PCP-D.2021-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-02-D3/WAPOR-3.L1-PCP-D.2021-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-03-D1/WAPOR-3.L1-PCP-D.2021-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-03-D2/WAPOR-3.L1-PCP-D.2021-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-03-D3/WAPOR-3.L1-PCP-D.2021-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-04-D1/WAPOR-3.L1-PCP-D.2021-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-04-D2/WAPOR-3.L1-PCP-D.2021-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-04-D3/WAPOR-3.L1-PCP-D.2021-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-05-D1/WAPOR-3.L1-PCP-D.2021-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-05-D2/WAPOR-3.L1-PCP-D.2021-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-05-D3/WAPOR-3.L1-PCP-D.2021-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-06-D1/WAPOR-3.L1-PCP-D.2021-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-06-D2/WAPOR-3.L1-PCP-D.2021-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-06-D3/WAPOR-3.L1-PCP-D.2021-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-07-D1/WAPOR-3.L1-PCP-D.2021-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-07-D2/WAPOR-3.L1-PCP-D.2021-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-07-D3/WAPOR-3.L1-PCP-D.2021-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-08-D1/WAPOR-3.L1-PCP-D.2021-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-08-D2/WAPOR-3.L1-PCP-D.2021-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-08-D3/WAPOR-3.L1-PCP-D.2021-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-09-D1/WAPOR-3.L1-PCP-D.2021-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-09-D2/WAPOR-3.L1-PCP-D.2021-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-09-D3/WAPOR-3.L1-PCP-D.2021-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-10-D1/WAPOR-3.L1-PCP-D.2021-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-10-D2/WAPOR-3.L1-PCP-D.2021-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-10-D3/WAPOR-3.L1-PCP-D.2021-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-11-D1/WAPOR-3.L1-PCP-D.2021-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-11-D2/WAPOR-3.L1-PCP-D.2021-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-11-D3/WAPOR-3.L1-PCP-D.2021-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-12-D1/WAPOR-3.L1-PCP-D.2021-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-12-D2/WAPOR-3.L1-PCP-D.2021-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2021-12-D3/WAPOR-3.L1-PCP-D.2021-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-01-D1/WAPOR-3.L1-PCP-D.2022-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-01-D2/WAPOR-3.L1-PCP-D.2022-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-01-D3/WAPOR-3.L1-PCP-D.2022-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-02-D1/WAPOR-3.L1-PCP-D.2022-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-02-D2/WAPOR-3.L1-PCP-D.2022-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-02-D3/WAPOR-3.L1-PCP-D.2022-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-03-D1/WAPOR-3.L1-PCP-D.2022-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-03-D2/WAPOR-3.L1-PCP-D.2022-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-03-D3/WAPOR-3.L1-PCP-D.2022-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-04-D1/WAPOR-3.L1-PCP-D.2022-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-04-D2/WAPOR-3.L1-PCP-D.2022-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-04-D3/WAPOR-3.L1-PCP-D.2022-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-05-D1/WAPOR-3.L1-PCP-D.2022-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-05-D2/WAPOR-3.L1-PCP-D.2022-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-05-D3/WAPOR-3.L1-PCP-D.2022-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-06-D1/WAPOR-3.L1-PCP-D.2022-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-06-D2/WAPOR-3.L1-PCP-D.2022-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-06-D3/WAPOR-3.L1-PCP-D.2022-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-07-D1/WAPOR-3.L1-PCP-D.2022-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-07-D2/WAPOR-3.L1-PCP-D.2022-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-07-D3/WAPOR-3.L1-PCP-D.2022-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-08-D1/WAPOR-3.L1-PCP-D.2022-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-08-D2/WAPOR-3.L1-PCP-D.2022-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-08-D3/WAPOR-3.L1-PCP-D.2022-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-09-D1/WAPOR-3.L1-PCP-D.2022-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-09-D2/WAPOR-3.L1-PCP-D.2022-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-09-D3/WAPOR-3.L1-PCP-D.2022-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-10-D1/WAPOR-3.L1-PCP-D.2022-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-10-D2/WAPOR-3.L1-PCP-D.2022-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-10-D3/WAPOR-3.L1-PCP-D.2022-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-11-D1/WAPOR-3.L1-PCP-D.2022-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-11-D2/WAPOR-3.L1-PCP-D.2022-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-11-D3/WAPOR-3.L1-PCP-D.2022-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-12-D1/WAPOR-3.L1-PCP-D.2022-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-12-D2/WAPOR-3.L1-PCP-D.2022-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2022-12-D3/WAPOR-3.L1-PCP-D.2022-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-01-D1/WAPOR-3.L1-PCP-D.2023-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-01-D2/WAPOR-3.L1-PCP-D.2023-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-01-D3/WAPOR-3.L1-PCP-D.2023-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-02-D1/WAPOR-3.L1-PCP-D.2023-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-02-D2/WAPOR-3.L1-PCP-D.2023-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-02-D3/WAPOR-3.L1-PCP-D.2023-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-03-D1/WAPOR-3.L1-PCP-D.2023-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-03-D2/WAPOR-3.L1-PCP-D.2023-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-03-D3/WAPOR-3.L1-PCP-D.2023-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-04-D1/WAPOR-3.L1-PCP-D.2023-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-04-D2/WAPOR-3.L1-PCP-D.2023-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-04-D3/WAPOR-3.L1-PCP-D.2023-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-05-D1/WAPOR-3.L1-PCP-D.2023-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-05-D2/WAPOR-3.L1-PCP-D.2023-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-05-D3/WAPOR-3.L1-PCP-D.2023-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-06-D1/WAPOR-3.L1-PCP-D.2023-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-06-D2/WAPOR-3.L1-PCP-D.2023-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-06-D3/WAPOR-3.L1-PCP-D.2023-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-07-D1/WAPOR-3.L1-PCP-D.2023-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-07-D2/WAPOR-3.L1-PCP-D.2023-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-07-D3/WAPOR-3.L1-PCP-D.2023-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-08-D1/WAPOR-3.L1-PCP-D.2023-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-08-D2/WAPOR-3.L1-PCP-D.2023-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-08-D3/WAPOR-3.L1-PCP-D.2023-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-09-D1/WAPOR-3.L1-PCP-D.2023-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-09-D2/WAPOR-3.L1-PCP-D.2023-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-09-D3/WAPOR-3.L1-PCP-D.2023-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-10-D1/WAPOR-3.L1-PCP-D.2023-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-10-D2/WAPOR-3.L1-PCP-D.2023-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-10-D3/WAPOR-3.L1-PCP-D.2023-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-11-D1/WAPOR-3.L1-PCP-D.2023-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-11-D2/WAPOR-3.L1-PCP-D.2023-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-11-D3/WAPOR-3.L1-PCP-D.2023-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-12-D1/WAPOR-3.L1-PCP-D.2023-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-12-D2/WAPOR-3.L1-PCP-D.2023-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2023-12-D3/WAPOR-3.L1-PCP-D.2023-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-01-D1/WAPOR-3.L1-PCP-D.2024-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-01-D2/WAPOR-3.L1-PCP-D.2024-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-01-D3/WAPOR-3.L1-PCP-D.2024-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-02-D1/WAPOR-3.L1-PCP-D.2024-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-02-D2/WAPOR-3.L1-PCP-D.2024-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-02-D3/WAPOR-3.L1-PCP-D.2024-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-03-D1/WAPOR-3.L1-PCP-D.2024-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-03-D2/WAPOR-3.L1-PCP-D.2024-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-03-D3/WAPOR-3.L1-PCP-D.2024-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-04-D1/WAPOR-3.L1-PCP-D.2024-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-04-D2/WAPOR-3.L1-PCP-D.2024-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-04-D3/WAPOR-3.L1-PCP-D.2024-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-05-D1/WAPOR-3.L1-PCP-D.2024-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-05-D2/WAPOR-3.L1-PCP-D.2024-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-05-D3/WAPOR-3.L1-PCP-D.2024-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-06-D1/WAPOR-3.L1-PCP-D.2024-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-06-D2/WAPOR-3.L1-PCP-D.2024-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-06-D3/WAPOR-3.L1-PCP-D.2024-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-07-D1/WAPOR-3.L1-PCP-D.2024-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-07-D2/WAPOR-3.L1-PCP-D.2024-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-07-D3/WAPOR-3.L1-PCP-D.2024-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-08-D1/WAPOR-3.L1-PCP-D.2024-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-08-D2/WAPOR-3.L1-PCP-D.2024-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-08-D3/WAPOR-3.L1-PCP-D.2024-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-09-D1/WAPOR-3.L1-PCP-D.2024-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-09-D2/WAPOR-3.L1-PCP-D.2024-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-09-D3/WAPOR-3.L1-PCP-D.2024-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-10-D1/WAPOR-3.L1-PCP-D.2024-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-10-D2/WAPOR-3.L1-PCP-D.2024-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-10-D3/WAPOR-3.L1-PCP-D.2024-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-11-D1/WAPOR-3.L1-PCP-D.2024-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-11-D2/WAPOR-3.L1-PCP-D.2024-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-11-D3/WAPOR-3.L1-PCP-D.2024-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-12-D1/WAPOR-3.L1-PCP-D.2024-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-12-D2/WAPOR-3.L1-PCP-D.2024-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2024-12-D3/WAPOR-3.L1-PCP-D.2024-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-01-D1/WAPOR-3.L1-PCP-D.2025-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-01-D2/WAPOR-3.L1-PCP-D.2025-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-01-D3/WAPOR-3.L1-PCP-D.2025-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-02-D1/WAPOR-3.L1-PCP-D.2025-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-02-D2/WAPOR-3.L1-PCP-D.2025-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-02-D3/WAPOR-3.L1-PCP-D.2025-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-03-D1/WAPOR-3.L1-PCP-D.2025-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-03-D2/WAPOR-3.L1-PCP-D.2025-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-03-D3/WAPOR-3.L1-PCP-D.2025-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-04-D1/WAPOR-3.L1-PCP-D.2025-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-04-D2/WAPOR-3.L1-PCP-D.2025-04-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-04-D3/WAPOR-3.L1-PCP-D.2025-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-05-D1/WAPOR-3.L1-PCP-D.2025-05-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-05-D2/WAPOR-3.L1-PCP-D.2025-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-05-D3/WAPOR-3.L1-PCP-D.2025-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-06-D1/WAPOR-3.L1-PCP-D.2025-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-06-D2/WAPOR-3.L1-PCP-D.2025-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-06-D3/WAPOR-3.L1-PCP-D.2025-06-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-07-D1/WAPOR-3.L1-PCP-D.2025-07-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-07-D2/WAPOR-3.L1-PCP-D.2025-07-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-07-D3/WAPOR-3.L1-PCP-D.2025-07-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-08-D1/WAPOR-3.L1-PCP-D.2025-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-08-D2/WAPOR-3.L1-PCP-D.2025-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-08-D3/WAPOR-3.L1-PCP-D.2025-08-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-09-D1/WAPOR-3.L1-PCP-D.2025-09-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-09-D2/WAPOR-3.L1-PCP-D.2025-09-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-09-D3/WAPOR-3.L1-PCP-D.2025-09-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-10-D1/WAPOR-3.L1-PCP-D.2025-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-10-D2/WAPOR-3.L1-PCP-D.2025-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-10-D3/WAPOR-3.L1-PCP-D.2025-10-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-11-D1/WAPOR-3.L1-PCP-D.2025-11-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-11-D2/WAPOR-3.L1-PCP-D.2025-11-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-11-D3/WAPOR-3.L1-PCP-D.2025-11-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-12-D1/WAPOR-3.L1-PCP-D.2025-12-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-12-D2/WAPOR-3.L1-PCP-D.2025-12-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2025-12-D3/WAPOR-3.L1-PCP-D.2025-12-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-01-D1/WAPOR-3.L1-PCP-D.2026-01-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-01-D2/WAPOR-3.L1-PCP-D.2026-01-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-01-D3/WAPOR-3.L1-PCP-D.2026-01-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-02-D1/WAPOR-3.L1-PCP-D.2026-02-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-02-D2/WAPOR-3.L1-PCP-D.2026-02-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-02-D3/WAPOR-3.L1-PCP-D.2026-02-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-03-D1/WAPOR-3.L1-PCP-D.2026-03-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-03-D2/WAPOR-3.L1-PCP-D.2026-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-03-D3/WAPOR-3.L1-PCP-D.2026-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "wapor:mapset": "L1-PCP-D",
+  "wapor:level": "L1",
+  "wapor:unit": "mm/day",
+  "wapor:version": "3",
+  "wapor:provider": "FAO UN",
+  "wapor:portal": "https://wapor.apps.fao.org/",
+  "title": "Precipitation \u2014 L1 Dekadal ~5 km",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -30.0,
+          -40.0,
+          65.0,
+          40.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "l3-crop-type",
+  "stac_version": "1.1.0",
+  "description": "Seasonal crop type classification. Sub-national irrigation schemes at 20 m resolution. Period codes include growing season identifiers (e.g. 2024.GS1, 2024.GS2).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "text/html",
+      "title": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "rel": "about",
+      "href": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/wapor-data-access/en",
+      "type": "text/html",
+      "title": "WaPOR Data Access"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.DZA-MIT.2024.GS1/WAPOR-3.L3-CROP-TYPE.DZA-MIT.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.DZA-MIT.2024.GS2/WAPOR-3.L3-CROP-TYPE.DZA-MIT.2024.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.JOR-JSH.2024.GS1/WAPOR-3.L3-CROP-TYPE.JOR-JSH.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.JOR-NJV.2024.GS1/WAPOR-3.L3-CROP-TYPE.JOR-NJV.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.MAR-LOU.2024.GS1/WAPOR-3.L3-CROP-TYPE.MAR-LOU.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.PAL-JER.2024.GS1/WAPOR-3.L3-CROP-TYPE.PAL-JER.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.PAL-JER.2024.GS2/WAPOR-3.L3-CROP-TYPE.PAL-JER.2024.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "wapor:mapset": "L3-CROP-TYPE",
+  "wapor:level": "L3",
+  "wapor:unit": "-",
+  "wapor:version": "3",
+  "wapor:provider": "FAO UN",
+  "wapor:portal": "https://wapor.apps.fao.org/",
+  "title": "Crop Type Classification \u2014 L3 20 m",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -30.0,
+          -40.0,
+          65.0,
+          40.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

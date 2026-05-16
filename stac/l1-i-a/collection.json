@@ -1,0 +1,105 @@
+{
+  "type": "Collection",
+  "id": "l1-i-a",
+  "stac_version": "1.1.0",
+  "description": "Annual rainfall interception by the vegetation canopy (I, mm/year). Global coverage at 300 m.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "text/html",
+      "title": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "rel": "about",
+      "href": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/wapor-data-access/en",
+      "type": "text/html",
+      "title": "WaPOR Data Access"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2018/WAPOR-3.L1-I-A.2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2019/WAPOR-3.L1-I-A.2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2020/WAPOR-3.L1-I-A.2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2021/WAPOR-3.L1-I-A.2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2022/WAPOR-3.L1-I-A.2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2023/WAPOR-3.L1-I-A.2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2024/WAPOR-3.L1-I-A.2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/WAPOR-3.L1-I-A.2025/WAPOR-3.L1-I-A.2025.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
+      "type": "application/json",
+      "title": "WaPOR v3 \u2014 FAO Water Productivity Open Access Portal"
+    },
+    {
+      "rel": "self",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-i-a/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "wapor:mapset": "L1-I-A",
+  "wapor:level": "L1",
+  "wapor:unit": "mm/year",
+  "wapor:version": "3",
+  "wapor:provider": "FAO UN",
+  "wapor:portal": "https://wapor.apps.fao.org/",
+  "title": "Interception \u2014 L1 Annual 300 m",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -30.0,
+          -40.0,
+          65.0,
+          40.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
