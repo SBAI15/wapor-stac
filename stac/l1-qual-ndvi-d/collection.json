@@ -1498,6 +1498,21 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-qual-ndvi-d/WAPOR-3.L1-QUAL-NDVI-D.2026-03-D2/WAPOR-3.L1-QUAL-NDVI-D.2026-03-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-qual-ndvi-d/WAPOR-3.L1-QUAL-NDVI-D.2026-03-D3/WAPOR-3.L1-QUAL-NDVI-D.2026-03-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-qual-ndvi-d/WAPOR-3.L1-QUAL-NDVI-D.2026-04-D1/WAPOR-3.L1-QUAL-NDVI-D.2026-04-D1.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",

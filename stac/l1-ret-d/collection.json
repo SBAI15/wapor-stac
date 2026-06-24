@@ -1528,6 +1528,26 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-d/WAPOR-3.L1-RET-D.2026-05-D2/WAPOR-3.L1-RET-D.2026-05-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-d/WAPOR-3.L1-RET-D.2026-05-D3/WAPOR-3.L1-RET-D.2026-05-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-d/WAPOR-3.L1-RET-D.2026-06-D1/WAPOR-3.L1-RET-D.2026-06-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-d/WAPOR-3.L1-RET-D.2026-06-D2/WAPOR-3.L1-RET-D.2026-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",
