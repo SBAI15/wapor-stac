@@ -4,7 +4,7 @@ build_catalog.py
 Builds a static STAC 1.0.0 catalog for FAO WaPOR v3 data.
 
 All assets point directly to Cloud Optimized GeoTIFFs hosted by FAO on
-Google Cloud Storage.
+
 """
 
 import argparse

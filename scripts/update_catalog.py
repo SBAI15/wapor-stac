@@ -111,18 +111,27 @@ def main():
         build_catalog()
         return
 
-    log.info("Loading existing catalog from %s", STAC_DIR)
-    root = pystac.Catalog.from_file(str(catalog_file))
+    log.info("Scanning local catalog at %s", STAC_DIR)
+
+    collection_dirs = sorted(
+        d for d in STAC_DIR.iterdir()
+        if d.is_dir() and (d / "collection.json").exists()
+    )
 
     total_added = 0
-    for collection in root.get_children():
-        mapset_code = collection.extra_fields.get("wapor:mapset", "")
-        if not mapset_code:
+    updated_codes = []
+
+    for collection_dir in collection_dirs:
+        col_data = json.loads(
+            (collection_dir / "collection.json").read_text(encoding="utf-8")
+        )
+        mapset_code = col_data.get("wapor:mapset", "")
+        if not mapset_code or mapset_code not in MAPSET_META:
             continue
 
-        level = mapset_code.split("-")[0]
-        collection_dir = STAC_DIR / collection.id
         log.info("Checking %s", mapset_code)
+        collection = pystac.Collection.from_dict(col_data)
+        level = mapset_code.split("-")[0]
 
         if level == "L3":
             added = update_l3(mapset_code, collection, collection_dir)
@@ -132,14 +141,15 @@ def main():
         if added:
             log.info("  +%d new items", added)
             total_added += added
+            updated_codes.append(mapset_code)
 
     if total_added == 0:
         log.info("Catalog is up to date. No new items found.")
         return
 
-    log.info("Saving updated catalog (%d new items)...", total_added)
-    root.normalize_hrefs(CATALOG_BASE_URL)
-    root.save(dest_href=str(STAC_DIR), catalog_type=CatalogType.ABSOLUTE_PUBLISHED)
+    log.info("%d new items across %d collections — rebuilding catalog...",
+             total_added, len(updated_codes))
+    build_catalog()
     log.info("Done.")
 
 
