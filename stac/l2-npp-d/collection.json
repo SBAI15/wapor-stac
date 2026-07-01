@@ -1543,6 +1543,11 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-npp-d/WAPOR-3.L2-NPP-D.2026-06-D2/WAPOR-3.L2-NPP-D.2026-06-D2.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",
