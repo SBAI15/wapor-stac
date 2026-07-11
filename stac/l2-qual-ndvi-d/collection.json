@@ -1519,6 +1519,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-qual-ndvi-d/WAPOR-3.L2-QUAL-NDVI-D.2026-04-D3/WAPOR-3.L2-QUAL-NDVI-D.2026-04-D3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l2-qual-ndvi-d/WAPOR-3.L2-QUAL-NDVI-D.2026-05-D1/WAPOR-3.L2-QUAL-NDVI-D.2026-05-D1.json",
       "type": "application/geo+json"
     },
