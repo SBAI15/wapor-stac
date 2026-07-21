@@ -34,6 +34,46 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-MLL.2023.GS2/WAPOR-3.L3-CROP-TYPE.EGY-MLL.2023.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-MLL.2024.GS1/WAPOR-3.L3-CROP-TYPE.EGY-MLL.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-MLL.2024.GS2/WAPOR-3.L3-CROP-TYPE.EGY-MLL.2024.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2023.GS2/WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2023.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2024.GS1/WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2024.GS2/WAPOR-3.L3-CROP-TYPE.EGY-SGZ.2024.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2024.GS1/WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2024.GS1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2024.GS2/WAPOR-3.L3-CROP-TYPE.EGY-ZAN.2024.GS2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-crop-type/WAPOR-3.L3-CROP-TYPE.JOR-JSH.2024.GS1/WAPOR-3.L3-CROP-TYPE.JOR-JSH.2024.GS1.json",
       "type": "application/geo+json"
     },
