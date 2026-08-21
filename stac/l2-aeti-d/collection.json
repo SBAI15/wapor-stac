@@ -1568,6 +1568,11 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l2-aeti-d/WAPOR-3.L2-AETI-D.2026-08-D1/WAPOR-3.L2-AETI-D.2026-08-D1.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",
