@@ -1573,6 +1573,11 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-d/WAPOR-3.L1-PCP-D.2026-08-D2/WAPOR-3.L1-PCP-D.2026-08-D2.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",

@@ -15783,6 +15783,66 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-19/WAPOR-3.L1-RET-E.2026-08-19.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-20/WAPOR-3.L1-RET-E.2026-08-20.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-21/WAPOR-3.L1-RET-E.2026-08-21.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-22/WAPOR-3.L1-RET-E.2026-08-22.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-23/WAPOR-3.L1-RET-E.2026-08-23.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-24/WAPOR-3.L1-RET-E.2026-08-24.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-25/WAPOR-3.L1-RET-E.2026-08-25.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-26/WAPOR-3.L1-RET-E.2026-08-26.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-27/WAPOR-3.L1-RET-E.2026-08-27.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-28/WAPOR-3.L1-RET-E.2026-08-28.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-29/WAPOR-3.L1-RET-E.2026-08-29.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-ret-e/WAPOR-3.L1-RET-E.2026-08-30/WAPOR-3.L1-RET-E.2026-08-30.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",
