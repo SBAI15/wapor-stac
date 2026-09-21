@@ -15873,6 +15873,56 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-06/WAPOR-3.L1-PCP-E.2026-09-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-07/WAPOR-3.L1-PCP-E.2026-09-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-08/WAPOR-3.L1-PCP-E.2026-09-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-09/WAPOR-3.L1-PCP-E.2026-09-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-10/WAPOR-3.L1-PCP-E.2026-09-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-11/WAPOR-3.L1-PCP-E.2026-09-11.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-12/WAPOR-3.L1-PCP-E.2026-09-12.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-13/WAPOR-3.L1-PCP-E.2026-09-13.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-14/WAPOR-3.L1-PCP-E.2026-09-14.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-e/WAPOR-3.L1-PCP-E.2026-09-15/WAPOR-3.L1-PCP-E.2026-09-15.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "https://SBAI15.github.io/wapor-stac/stac/catalog.json",
       "type": "application/json",
