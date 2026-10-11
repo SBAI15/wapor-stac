@@ -24,6 +24,16 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-a/WAPOR-3.L1-PCP-A.2013/WAPOR-3.L1-PCP-A.2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-a/WAPOR-3.L1-PCP-A.2017/WAPOR-3.L1-PCP-A.2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l1-pcp-a/WAPOR-3.L1-PCP-A.2018/WAPOR-3.L1-PCP-A.2018.json",
       "type": "application/geo+json"
     },
