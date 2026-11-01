@@ -1604,6 +1604,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.AWA.2026-10-D2/WAPOR-3.L3-RSM-D.AWA.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.BKA.2018-01-D1/WAPOR-3.L3-RSM-D.BKA.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -3180,6 +3185,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.BKA.2026-10-D1/WAPOR-3.L3-RSM-D.BKA.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.BKA.2026-10-D2/WAPOR-3.L3-RSM-D.BKA.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -5664,6 +5674,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.ENO.2026-10-D2/WAPOR-3.L3-RSM-D.ENO.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.ERB.2018-01-D1/WAPOR-3.L3-RSM-D.ERB.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -7240,6 +7255,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.ERB.2026-10-D1/WAPOR-3.L3-RSM-D.ERB.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.ERB.2026-10-D2/WAPOR-3.L3-RSM-D.ERB.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -8824,6 +8844,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.GAR.2026-10-D2/WAPOR-3.L3-RSM-D.GAR.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.GEZ.2018-01-D1/WAPOR-3.L3-RSM-D.GEZ.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -10400,6 +10425,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.GEZ.2026-10-D1/WAPOR-3.L3-RSM-D.GEZ.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.GEZ.2026-10-D2/WAPOR-3.L3-RSM-D.GEZ.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -11984,6 +12014,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.JAF.2026-10-D2/WAPOR-3.L3-RSM-D.JAF.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.JEN.2018-01-D1/WAPOR-3.L3-RSM-D.JEN.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -13560,6 +13595,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.JEN.2026-10-D1/WAPOR-3.L3-RSM-D.JEN.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.JEN.2026-10-D2/WAPOR-3.L3-RSM-D.JEN.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -15144,6 +15184,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.JVA.2026-10-D2/WAPOR-3.L3-RSM-D.JVA.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KAI.2018-01-D1/WAPOR-3.L3-RSM-D.KAI.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -16724,6 +16769,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KAI.2026-10-D2/WAPOR-3.L3-RSM-D.KAI.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KMW.2018-01-D1/WAPOR-3.L3-RSM-D.KMW.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -18300,6 +18350,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KMW.2026-10-D1/WAPOR-3.L3-RSM-D.KMW.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KMW.2026-10-D2/WAPOR-3.L3-RSM-D.KMW.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -21320,6 +21375,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KTB.2026-10-D1/WAPOR-3.L3-RSM-D.KTB.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.KTB.2026-10-D2/WAPOR-3.L3-RSM-D.KTB.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -32804,6 +32864,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.LOU.2026-10-D2/WAPOR-3.L3-RSM-D.LOU.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MAG.2018-01-D1/WAPOR-3.L3-RSM-D.MAG.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -34380,6 +34445,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MAG.2026-10-D1/WAPOR-3.L3-RSM-D.MAG.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MAG.2026-10-D2/WAPOR-3.L3-RSM-D.MAG.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -37239,6 +37309,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MBL.2026-10-D2/WAPOR-3.L3-RSM-D.MBL.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MIT.2018-01-D1/WAPOR-3.L3-RSM-D.MIT.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -38815,6 +38890,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MIT.2026-10-D1/WAPOR-3.L3-RSM-D.MIT.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.MIT.2026-10-D2/WAPOR-3.L3-RSM-D.MIT.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -41749,6 +41829,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.NDV.2026-10-D2/WAPOR-3.L3-RSM-D.NDV.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.ODN.2018-01-D1/WAPOR-3.L3-RSM-D.ODN.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -43329,6 +43414,11 @@
     },
     {
       "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.ODN.2026-10-D2/WAPOR-3.L3-RSM-D.ODN.2026-10-D2.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.PAL.2018-01-D1/WAPOR-3.L3-RSM-D.PAL.2018-01-D1.json",
       "type": "application/geo+json"
     },
@@ -44905,6 +44995,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.PAL.2026-10-D1/WAPOR-3.L3-RSM-D.PAL.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.PAL.2026-10-D2/WAPOR-3.L3-RSM-D.PAL.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
@@ -48125,6 +48220,11 @@
     {
       "rel": "item",
       "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.SED.2026-10-D1/WAPOR-3.L3-RSM-D.SED.2026-10-D1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://SBAI15.github.io/wapor-stac/stac/l3-rsm-d/WAPOR-3.L3-RSM-D.SED.2026-10-D2/WAPOR-3.L3-RSM-D.SED.2026-10-D2.json",
       "type": "application/geo+json"
     },
     {
